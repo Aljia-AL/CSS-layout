@@ -1,0 +1,229 @@
+body {
+    margin : 0;
+    top: 0;
+    background-color: antiquewhite;
+}
+
+
+.navigate {
+    position: sticky;
+    background-color: rgb(255,255,255);
+    height: 70px;
+    text-align: end ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-around;
+    width: 300px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.links > a{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: aqua;
+} 
+.links {
+    display: flex;
+    width: 250px;
+    justify-content: space-around;
+    color: #ababab ;
+}
+
+.links > a:hover {
+    color: #00c3a5;
+}
+.isactive {
+    color: #00c3a5;
+}
+
+/* section2 style */
+
+.section2 {
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: #00c3a5;
+    font-family: 'Work Sans', sans-serif;
+    font-style: italic;
+    font-size: smaller;
+    font-weight: 100;
+
+}
+
+/* section3 */
+
+.parag {
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 85%;
+    color: #ababab;
+}
+.paragraph {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section4 {
+    display: flex;
+    justify-content: center ;
+}
+
+.cartes {
+    display: flex;
+    justify-content: space-around;
+    width: 95%;
+}
+
+
+.carte1 {
+    background-color: #00c3a5;
+    width: 230;
+    height: 300px;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+}
+.carte2 {
+    background-color: #508fe2 ;
+    width: 230;
+    height: 300px;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+}
+.carte3 {
+    background-color: #1c2835 ;
+    width: 230;
+    height: 300px;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+
+select {
+    border: transparent;
+    background-color: transparent;
+    color: white;
+    text-decoration: underline;
+}
+
+.option {
+    color: black;
+}
+
+/* section5 */
+
+.platform {
+    display: flex;
+    height: 650px;
+    justify-content: space-around;
+    width: 90%;
+    background-color: #daf7f6;
+
+}
+.box1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.box2 {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #daf7f6;
+}
+.bigbox {
+    
+    display: flex;
+    justify-content: space-around;
+    width: 550px;
+    background-color: #daf7f6;
+}
+
+.main > h2 {
+    color: #00c3a5;
+}
+.main > p {
+    color: #ababab;
+}
+
+.leader , .appointments , .patients , .doctors {
+    background-color: #d6f6f6;
+    width: 250px;
+    height: 350px;
+    border: 15Px;
+
+}
+.leader , .appointments , .doctors , .patients > h4 {
+    color: #00c3a5;
+}
+
+.leader , .appointments , .doctors , .patients > p {
+    color: #ababab;
+}
+
+/* section6 */
+
+.section6 {
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: #00c3a5;
+    font-family: 'Work Sans', sans-serif;
+    font-style: italic;
+    font-size: smaller;
+    font-weight: 100;
+}
+
+
+.section6 > p {
+    display: flex;
+    justify-content: center;
+    color: #1c2835;
+}
+
+/* section7 */
+
+.WBM {
+    display: flex;
+    border-bottom: 1px #508fe2 ;
+}
+
+.IRB {
+    display: flex;
+    border-bottom: 1px #508fe2;
+}
+.CRM {
+    display: flex;
+    border-bottom: 1px #508fe2;
+}
+.WBM , .IRB , .CRM > h3 {
+    color: #1c2835;
+    display: flex;
+    justify-content:end
+}
